@@ -2,3 +2,5 @@ torch
 torchaudio
 soundfile
 numpy
+librosa
+omegaconf
