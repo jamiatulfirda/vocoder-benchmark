@@ -4,3 +4,5 @@ soundfile
 numpy
 librosa
 omegaconf
+pytorch_msssim
+tqdm

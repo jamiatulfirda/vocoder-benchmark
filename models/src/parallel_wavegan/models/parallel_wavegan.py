@@ -13,21 +13,17 @@ import logging
 import math
 
 import models.src.parallel_wavegan as parallel_wavegan # @oss-only
-# @fb-only: import langtech.tts.vocoders.models.src.parallel_wavegan as parallel_wavegan 
+# @fb-only: import langtech.tts.vocoders.models.src.parallel_wavegan as parallel_wavegan
 import numpy as np
 import torch
 
 from models.src.parallel_wavegan.layers import ( # @oss-only
-# @fb-only: from langtech.tts.vocoders.models.src.parallel_wavegan.layers import ( 
+# @fb-only: from langtech.tts.vocoders.models.src.parallel_wavegan.layers import (
     upsample,
 )
 
 from models.src.parallel_wavegan.layers.residual_block import ( # @oss-only
-
-from models.src.parallel_wavegan.layers.residual_block import ( # @oss-only
-
-from models.src.parallel_wavegan.layers.residual_block import ( # @oss-only
-# @fb-only: from langtech.tts.vocoders.models.src.parallel_wavegan.layers.residual_block import (  # @fb-only  # @fb-only 
+# @fb-only: from langtech.tts.vocoders.models.src.parallel_wavegan.layers.residual_block import (  # @fb-only  # @fb-only
     Conv1d,
     Conv1d1x1,
     ResidualBlock,
